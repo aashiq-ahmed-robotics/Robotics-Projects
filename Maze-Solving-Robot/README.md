@@ -22,11 +22,13 @@ This project implements a maze-solving robot that uses Dijkstra’s algorithm to
 - Basic PID control for smooth movement
 
 ## Code
-- Path planning and navigation logic implemented in Arduino
+- `maze_solver.ino` – path planning and logic implementation
 
 ## Limitations
 - Maze structure must be predefined or mapped
 - Sensor noise can affect accuracy
 - Not suitable for dynamic or changing mazes
 - Limited maze size due to memory constraints
-
+  
+## Note
+Code Provided is a sample code not a complete code
