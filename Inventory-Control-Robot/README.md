@@ -21,7 +21,7 @@ The Inventory Control Robot is designed to assist with inventory tracking and ba
 - Inventory count is updated
 - Data can be transmitted wirelessly
 
-## Code
+## Sample Code
 - `inventory_robot.ino` – Embedded control and logic code
 
 ## Limitations
@@ -29,3 +29,6 @@ The Inventory Control Robot is designed to assist with inventory tracking and ba
 - Limited processing capability
 - Cannot distinguish similar-looking items reliably
 - Suitable mainly for small-scale setups
+
+## Note
+Code Provided is a sample code not a complete code
