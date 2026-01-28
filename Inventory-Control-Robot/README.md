@@ -15,6 +15,12 @@ The Inventory Control Robot is designed to assist with inventory tracking and ba
 - DC motors
 - Bluetooth module (HC-05)
 
+## Software Used
+- Arduino IDE (Raspberry Pi Pico core)
+- Embedded C / C++
+- Basic image processing logic
+- Serial and Bluetooth communication handling
+
 ## Working Process
 - Camera detects inventory items
 - Microcontroller processes the data
