@@ -27,5 +27,12 @@ This project demonstrates a basic Vehicle-to-Infrastructure (V2I) communication 
 - `vehicle_controller.ino` – Vehicle-side control logic
 - Signal controller code sends signal states wirelessly
 
+## Limitations
+- Uses Wi-Fi/Bluetooth instead of standard V2I protocols
+- Limited communication range
+- Designed for single vehicle and signal
+- No obstacle or pedestrian detection
+- Tested only in controlled environments
+
 ## Project Type
 Academic prototype demonstrating embedded communication and control logic.
