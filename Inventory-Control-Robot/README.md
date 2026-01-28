@@ -22,7 +22,7 @@ The Inventory Control Robot is designed to assist with inventory tracking and ba
 - Data can be transmitted wirelessly
 
 ## Code
-- Embedded control logic implemented using Arduino IDE
+- `inventory_robot.ino` – Embedded control and logic code
 
 ## Limitations
 - Detection accuracy depends on lighting
