@@ -1,13 +1,13 @@
 # Maze Solving Robot using Dijkstra’s Algorithm
 
 ## Overview
-This project implements a maze-solving robot that uses Dijkstra’s algorithm to determine the shortest path from a start point to a destination.
+This project implements a maze-solving robot that uses Dijkstra’s algorithm to find the shortest path from a start point to a destination. The maze is represented as a graph structure.
 
 ## Concept
-- The maze is represented as a graph
-- Each intersection is treated as a node
-- Paths between nodes are edges with weights
-- Dijkstra’s algorithm computes the shortest path
+- Maze cells are treated as nodes
+- Paths between cells are edges
+- Dijkstra’s algorithm calculates the shortest path
+- Robot follows the computed path
 
 ## Hardware Used
 - Arduino UNO
@@ -16,20 +16,17 @@ This project implements a maze-solving robot that uses Dijkstra’s algorithm to
 - DC motors
 
 ## Software
-- Platform: Arduino IDE
-- Language: C++
-- Algorithm: Dijkstra’s shortest path
-- Control: Basic PID for smooth movement
+- Arduino IDE
+- C++
+- Dijkstra’s algorithm
+- Basic PID control for smooth movement
 
 ## Code
-- `maze_solver.ino` – Core path planning and logic implementation
-
-## Outcome
-The robot successfully navigates the maze using logical path planning instead of random movement.
+- Path planning and navigation logic implemented in Arduino
 
 ## Limitations
--Maze structure must be predefined or mapped beforehand
+- Maze structure must be predefined or mapped
+- Sensor noise can affect accuracy
+- Not suitable for dynamic or changing mazes
+- Limited maze size due to memory constraints
 
--Sensor noise can affect decision making
-
--Not optimized for dynamic or changing mazes
