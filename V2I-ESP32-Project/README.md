@@ -1,28 +1,31 @@
-# Smart Vehicle Prototype – V2I Communication
+# Autonomous Vehicle and Smart Traffic Signal System (V2I)
 
 ## Overview
-This project demonstrates a basic Vehicle-to-Infrastructure (V2I) communication concept using two ESP32 modules.
+This project demonstrates a basic Vehicle-to-Infrastructure (V2I) communication system using two ESP32 microcontrollers. One ESP32 controls a traffic signal, and the other controls a vehicle that reacts to the signal state in real time.
 
-## System Description
-- One ESP32 simulates a traffic signal
-- Another ESP32 is mounted on the vehicle
-- Communication is done using Wi-Fi
-- When the signal turns green, the vehicle starts moving automatically
+## How the System Works
+- Traffic signal ESP32 broadcasts the current signal state wirelessly
+- Vehicle ESP32 receives the signal data
+- Vehicle motion is controlled based on the signal:
+  - Red: Stop
+  - Yellow: Slow down
+  - Green: Move forward
 
 ## Hardware Used
 - ESP32 (2 units)
-- Motor driver
+- L298N motor driver
 - DC motors
-- Power supply
+- Traffic signal LEDs
+- Robot chassis
 
-## Software & Logic
-- Embedded C
-- Wi-Fi based data transmission
-- Simple decision logic based on signal state
+## Software
+- Platform: Arduino IDE
+- Language: Embedded C / C++
+- Communication: Wi-Fi
 
-## Outcome
-The system successfully demonstrated how external infrastructure signals can influence autonomous vehicle movement in a controlled environment.
+## Code
+- `vehicle_controller.ino` – Vehicle-side control logic
+- Signal controller code sends signal states wirelessly
 
-## Limitations
-- Prototype-level implementation
-- Wi-Fi used instead of standard V2I protocols
+## Project Type
+Academic prototype demonstrating embedded communication and control logic.
