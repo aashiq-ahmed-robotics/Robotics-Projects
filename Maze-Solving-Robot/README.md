@@ -29,5 +29,7 @@ The robot successfully navigates the maze using logical path planning instead of
 
 ## Limitations
 -Maze structure must be predefined or mapped beforehand
+
 -Sensor noise can affect decision making
+
 -Not optimized for dynamic or changing mazes
