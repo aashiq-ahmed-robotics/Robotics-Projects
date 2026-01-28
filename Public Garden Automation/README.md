@@ -26,6 +26,9 @@ This project automates irrigation and lighting in a public garden using sensor-b
 ## Application
 Suitable for gardens, parks, and basic smart landscaping systems.
 
+## Note
+Code provided is a sample code not a the complete code
+
 ## Limitations
 - Sensor readings may vary over time
 - Fixed thresholds may not suit all plants
