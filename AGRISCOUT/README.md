@@ -41,6 +41,13 @@ Manual crop scouting is time-consuming, subjective, and not scalable for large f
 - MPU6050 gyroscope
 - Low-cost environmental sensors
 
+## Software Used
+- Raspberry Pi OS – main operating system
+- Python – motor control, sensor interfacing, and system logic
+- LiDAR driver libraries – distance measurement and navigation input
+- OpenCV – camera-based image processing
+- Basic control algorithms – steering correction and movement control
+
 ## Current Status
 - Navigation logic defined
 - Virtual sensing algorithms identified
