@@ -36,3 +36,6 @@ This project demonstrates a basic Vehicle-to-Infrastructure (V2I) communication 
 
 ## Project Type
 Academic prototype demonstrating embedded communication and control logic.
+
+## Note
+Code provided is a sample code not the complete code
