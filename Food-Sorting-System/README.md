@@ -23,6 +23,9 @@ This project automates food sorting in processing industries using basic compute
 ## Code
 - `shape_sorting.py` – Image processing and defect detection logic
 
+## Note
+Code provided is a sample code not the complete code
+
 ## Limitations
 - Performance depends on consistent lighting
 - Overlapping items are difficult to detect
